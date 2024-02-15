@@ -1,0 +1,72 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.navbar-nav li a {
+  font-size: 18px;
+}
+
+/* Section Styles */
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Image Styles */
+
+img {
+
+  max-width: 2px;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px hsla(25, 41%, 60%, 0.782);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+/* Footer Styles */
+
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+.hobby {
+  margin-bottom: 20px;
+}
+
+.hobby img {
+  scale: 50%;
+  max-width: 100%;
+  height: auto;
+}
